@@ -1,0 +1,11 @@
+{
+	"appId": "com.moneycalendar.clock",
+	"appName": "Money Calendar",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	},
+	"android": {
+		"backgroundColor": "#FFFFFF"
+	}
+}

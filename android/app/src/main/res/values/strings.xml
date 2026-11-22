@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Money Calendar</string>
+    <string name="title_activity_main">Money Calendar</string>
+    <string name="package_name">com.moneycalendar.clock</string>
+    <string name="custom_url_scheme">com.moneycalendar.clock</string>
+</resources>
