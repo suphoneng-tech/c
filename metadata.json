@@ -1,0 +1,6 @@
+{
+  "name": "Money Calendar – My Financial Clock",
+  "description": "Real-time personal income clock, savings tracker, monthly expense manager, and financial forecast dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

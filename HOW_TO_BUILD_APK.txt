@@ -1,0 +1,24 @@
+Money Calendar – My Financial Clock
+====================================
+
+วิธีสร้างไฟล์ .apk สำหรับติดตั้งบน POCO X8 Pro Max:
+
+[วิธีที่ 1] ใช้ GitHub Actions สร้าง .apk ฟรีบนคลาวด์ (ไม่ต้องลง Android Studio บน PC)
+1. แตกไฟล์ Download.zip ลงบน PC
+2. สร้าง Repository ใหม่บน GitHub (https://github.com/new)
+3. อัปโหลดไฟล์ทั้งหมดในโฟลเดอร์นี้ขึ้น GitHub (รวมโฟลเดอร์ .github/workflows/build-apk.yml)
+4. ไปที่แท็บ Actions บนหน้า GitHub ของคุณ -> เลือก "Build Android APK"
+5. เมื่อรันเสร็จ (ประมาณ 2-3 นาที) กดดาวน์โหลด Artifact ชื่อ "Money-Calendar-APK"
+   จะได้ไฟล์ .zip ที่มี Money-Calendar-debug.apk พร้อมติดตั้งลง POCO X8 Pro Max ทันที!
+
+[วิธีที่ 2] ใช้ Android Studio บน PC
+1. แตกไฟล์ Download.zip ลงบน PC
+2. เปิด Terminal ในโฟลเดอร์นี้แล้วรัน: npm install && npm run android:sync
+3. เปิดโปรแกรม Android Studio -> เลือก Open -> เลือกโฟลเดอร์ android/
+4. กดเมนู Build > Build Bundle(s) / APK(s) > Build APK(s)
+5. เมื่อเสร็จจะได้ไฟล์ app-debug.apk ที่ android/app/build/outputs/apk/debug/app-debug.apk
+
+[วิธีที่ 3] ใช้ PWABuilder
+1. แตกไฟล์ Download.zip
+2. นำโฟลเดอร์ dist/ ไปลากวางที่ https://app.netlify.com/drop (ฟรี ได้ URL สาธารณะทันที)
+3. นำ URL ที่ได้ไปวางใน https://www.pwabuilder.com -> Package for Stores -> Android -> Download Package
